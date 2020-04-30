@@ -5,4 +5,16 @@ node
   {
     checkout scm
   }
+
+  stage ('Build Image')
+  {
+  }
+
+  stage ('Push to ECR')
+  {
+  }
+
+  stage ('Deploy to ECS')
+  {
+  }
 }
